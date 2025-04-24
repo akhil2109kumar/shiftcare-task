@@ -12,7 +12,6 @@ A simple Ruby command-line tool to search clients by name and detect duplicate e
 
    ```bash
    git clone https://github.com/your-username/shiftcare-task.git
-   
    cd shiftcare-task
    ```
 
@@ -24,24 +23,24 @@ A simple Ruby command-line tool to search clients by name and detect duplicate e
 
 ## Usage Instructions
 
-### 1. Search clients by name:
+ 1. Search clients by name:
 
     ```bash
     ruby bin/shiftcare.rb -s john
     ```
 
-### 2. Find duplicate emails:
+ 2. Find duplicate emails:
 
     ```bash
     ruby bin/shiftcare.rb -d
     ```
 
 ## Running tests
-Run the test suite using:
+Run the test cases using:
 
-```bash
-bundle exec rspec
-```
+   ```bash
+   bundle exec rspec
+   ```
 
 ## Assumptions and Decisions Made
 - It is assumed that the input file (clients.json) is well-structured and contains valid JSON.
